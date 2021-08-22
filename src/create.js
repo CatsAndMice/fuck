@@ -1,3 +1,7 @@
-[1, 3, 4].forEach(val => {
-    console.log(val);
-})
+const axios = require('axios'),
+    fs = require('fs'),
+    path = require('path');
+module.exports = function create(dirName) {
+    const drirPath = path.resolve(__dirname, dirName)
+
+}
